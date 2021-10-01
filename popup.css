@@ -11,55 +11,65 @@ html{
 }
 
 body{
-  width: 25rem;
-  padding-bottom: 2rem;
+  width: 50rem;
+  padding: 2rem;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #2a6592;
+  font-family: 'Lato', sans-serif;
+  background-color: #c54612;
   color: 	#f7f7f7;
+  /* temp */
+  border: 5px solid white;
+}
+
+.extension__logo{
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #B53A25;
+  color: white;
+  font-size: 5rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 3rem;
 }
 
 .extension__heading{
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
   text-align: center;
-  margin: 3rem 0;
+  margin: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
 }
 
-#bookmark__list{
-  list-style-type: none;
-  font-size: 2rem;
-}
-
-.bookmark__item{
-  background-color:darkcyan;
-  padding: 1.5rem 2.5rem;
-  border-radius: .5rem;
-  
-  display:flex;
-  justify-content: space-between;
-  /* align-items: center; */
-}
-.bookmark__item:not(:last-child){
-  margin-bottom: 1rem;
-}
-
-.bookmark__btn:link,
-.bookmark__btn:visited{
-  display:inline-block;
+.container{
+  width: 100%;
   font-size: 1.6rem;
-  text-decoration: none;
-  color:#f7f7f7;
-  background-color: darkblue;
-  padding: .5rem 1.5rem;
-  border-radius: 1rem;
-  transition: all .2s;
-}
-.bookmark__btn:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+  margin-top: 3rem;
 }
 
-.bookmark__title{
-  text-transform: capitalize;
+.form{
+  text-align: center;
 }
 
+.btn{
+  border: none;
+  background-color: #B53A25;
+  color: white;
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.form__input{
+  border: none;
+  outline:none;
+  display: block;
+  width:80%;
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border-radius: .5rem;
+  padding: 2rem 2.5rem;
+}
