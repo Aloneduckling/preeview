@@ -1,6 +1,6 @@
 {
-    "name": "Resume Read",
-    "description": "Resume from where you left",
+    "name": "Preeview",
+    "description": "A google chrome extension for viewing links without clicking them",
     "version": "1.0",
     "manifest_version": 3,
     "background":{
