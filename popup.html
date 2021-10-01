@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="popup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="popup.css" />
     </head>
     <body>
-        <h1 class="extension__heading">Resume Read</h1>
-        <ul id='bookmark__list'></ul>
-        
+        <h1 class="extension__logo">P</h1>
+        <h2 class="extension__heading">Preeview</h2>
+        <div class="container">
+            <form class="form">
+                    <input
+                        id="get-url"
+                        class="form__input"
+                        type="text"
+                        placeholder="Link goes here..."
+                    />
+                    <button class="btn">Show Page</button>
+            </form>
+        </div>
+
         <script src="popup.js"></script>
     </body>
 </html>
