@@ -17,8 +17,8 @@ body{
   font-family: 'Lato', sans-serif;
   background-color: #c54612;
   color: 	#f7f7f7;
-  /* temp */
   border: 5px solid white;
+  font-size: 1.6rem;
 }
 
 .extension__logo{
@@ -43,7 +43,6 @@ body{
 
 .container{
   width: 100%;
-  font-size: 1.6rem;
   margin-top: 3rem;
 }
 
@@ -72,4 +71,21 @@ body{
   font-size: 1.6rem;
   border-radius: .5rem;
   padding: 2rem 2.5rem;
+}
+
+
+/* utility classes */
+
+.error {
+  color: #ffe1e1;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.center-box{
+  margin: 0 auto;
+  /* works on block elements when they are inside another block element */
+  /* for example a <div> inside another <div> */
 }
